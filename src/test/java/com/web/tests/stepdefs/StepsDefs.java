@@ -1,17 +1,12 @@
-package com.pcops.web.tests.stepdefs;
+package com.web.tests.stepdefs;
 
-import com.pcops.web.tests.pageobjects.ProfilePageObjects;
+import com.web.tests.pageobjects.WelcomePage;
 import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
@@ -19,14 +14,14 @@ import java.util.logging.Logger;
 /**
  * Created by bkondamu on 9/13/16.
  */
-public class ProfileTestSteps {
+public class StepsDefs {
 
 
     WebDriver driver;
-    private static final Logger logger = Logger.getLogger(ProfileTestSteps.class.getName());
-    ProfilePageObjects profilePageObjects;
+    private static final Logger logger = Logger.getLogger(StepsDefs.class.getName());
+    WelcomePage profilePageObjects;
 
-    public ProfileTestSteps() {
+    public StepsDefs() {
         driver = CommonSteps.getDriver();
     }
 

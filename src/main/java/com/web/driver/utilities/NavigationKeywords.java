@@ -1,4 +1,4 @@
-package com.pcops.web.driver.utilities;
+package com.web.driver.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

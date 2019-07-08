@@ -1,9 +1,6 @@
-package com.pcops.web.tests.stepdefs;
+package com.web.tests.stepdefs;
 
-import com.pcops.web.driver.webdriver.DynamicBrowser;
-import com.pcops.web.tests.pageobjects.ProfilePageObjects;
-import cucumber.api.DataTable;
-import cucumber.api.PendingException;
+import com.web.driver.webdriver.DynamicBrowser;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
@@ -11,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 /**

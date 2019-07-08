@@ -1,4 +1,4 @@
-package com.pcops.web.driver.utilities;
+package com.web.driver.utilities;
 
 import java.io.File;
 import java.io.FileReader;

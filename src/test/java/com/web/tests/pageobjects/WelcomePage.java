@@ -1,9 +1,9 @@
-package com.pcops.web.tests.pageobjects;
+package com.web.tests.pageobjects;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
-import com.pcops.web.driver.utilities.BrowserProperties;
-import com.pcops.web.driver.utilities.NavigationKeywords;
+import com.web.driver.utilities.BrowserProperties;
+import com.web.driver.utilities.NavigationKeywords;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -18,13 +18,13 @@ import java.util.Set;
 /**
  * Created by bkondamu on 12/14/15.
  */
-public class ProfilePageObjects {
+public class WelcomePage {
 
 
     WebDriver driver=null;
     NavigationKeywords navigationKeywords;
 
-    public ProfilePageObjects(WebDriver driver) {
+    public WelcomePage(WebDriver driver) {
         this.driver = driver;
         navigationKeywords = new NavigationKeywords(this.driver);
     }

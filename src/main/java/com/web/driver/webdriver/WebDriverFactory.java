@@ -1,8 +1,7 @@
-package com.pcops.web.driver.webdriver;
+package com.web.driver.webdriver;
 
-import com.pcops.web.driver.utilities.BrowserProperties;
+import com.web.driver.utilities.BrowserProperties;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.server.SystemClock;
 
 import java.util.Properties;
 
